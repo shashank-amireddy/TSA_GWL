@@ -20,3 +20,6 @@ df_cleaned = remove_all_nan_rows_from_third_col(df_cleaned)
 
 # Save the cleaned DataFrame to a new file
 df_cleaned.to_csv('cleaned_file.csv', index=False)
+
+
+#final code
