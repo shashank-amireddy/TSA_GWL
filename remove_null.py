@@ -38,6 +38,7 @@ output_path = "Insitu_nan_row_removed.csv"  # Replace with desired output path
 cleaned_df.to_csv(output_path, index=False)
 
 print(f"Cleaned CSV saved to {output_path}")
+<<<<<<< HEAD
 df_cleaned = remove_all_nan_rows_from_third_col(df_cleaned)
 
 df_cleaned = df_cleaned.applymap(lambda x: round(float(x), 2) if isinstance(x, (int, float)) or (isinstance(x, str) and x.replace('.', '', 1).isdigit()) else x)
@@ -46,3 +47,5 @@ df_cleaned.to_csv('cleaned_file.csv', index=False)
 
 
 #final code
+=======
+>>>>>>> 3a167bb9b658c0b1bb7dbbf52e0b3ebd9490061a
